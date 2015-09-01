@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import BaseHTTPServer
+import http.server
 import urlparse
 
 from .linkedin import LinkedInApplication, LinkedInAuthentication, PERMISSIONS
